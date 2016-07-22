@@ -723,7 +723,7 @@ _GL_WARN_ON_USE (getline, "getline is unportable - "
    so any use of gets warrants an unconditional warning; besides, C11
    removed it.  */
 #undef gets
-#if HAVE_RAW_DECL_GETS && !defined __cplusplus
+#if 0 && HAVE_RAW_DECL_GETS && !defined __cplusplus
 _GL_WARN_ON_USE (gets, "gets is a security hole - use fgets instead");
 #endif
 
