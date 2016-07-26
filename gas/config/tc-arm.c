@@ -289,7 +289,7 @@ static const arm_feature_set fpu_crypto_ext_armv8 =
   ARM_FEATURE_COPROC (FPU_CRYPTO_EXT_ARMV8);
 static const arm_feature_set crc_ext_armv8 =
   ARM_FEATURE_COPROC (CRC_EXT_ARMV8);
-static const arm_feature_set fpu_neon_ext_v8_1 =
+static const arm_feature_set fpu_neon_ext_v8_1 ATTRIBUTE_UNUSED =
   ARM_FEATURE_COPROC (FPU_NEON_EXT_RDMA);
 
 static int mfloat_abi_opt = -1;
